@@ -59,7 +59,8 @@
         },
         "drupal-scaffold": {
             "allowed-packages": [
-                "pantheon-systems\/drupal-integrations"
+                "pantheon-systems\/drupal-integrations",
+                "thinkshout\/drupal-integrations"
             ],
             "locations": {
                 "web-root": ".\/web"
