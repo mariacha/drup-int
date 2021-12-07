@@ -106,6 +106,7 @@
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.6",
-        "symfony/css-selector": "^5.4"
+        "symfony/css-selector": "^5.4",
+        "thinkshout/robo-drupal": "^3.0"
     }
 }
