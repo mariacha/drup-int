@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8927d8040eb46ac9a4e4292deff31b2",
+    "content-hash": "0ea579aec4004652f676ec693a79bde3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3025,7 +3025,7 @@
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
@@ -6261,6 +6261,75 @@
                 }
             ],
             "time": "2021-05-26T17:39:37+00:00"
+        },
+        {
+            "name": "thinkshout/drupal-integrations",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkshout/drupal-integrations.git",
+                "reference": "942f58138d98bdac35a2e22f9758067a95e80652"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinkshout/drupal-integrations/zipball/942f58138d98bdac35a2e22f9758067a95e80652",
+                "reference": "942f58138d98bdac35a2e22f9758067a95e80652",
+                "shasum": ""
+            },
+            "conflict": {
+                "drupal/core": "<9"
+            },
+            "default-branch": true,
+            "type": "project",
+            "extra": {
+                "drupal-scaffold": {
+                    "file-mapping": {
+                        "[project-root]/.ci/build/multidev-save": "assets/.ci/build/multidev-save",
+                        "[project-root]/.ci/test/visual-regression/.gitignore": "assets/.ci/test/visual-regression/.gitignore",
+                        "[project-root]/.ci/test/visual-regression/package.json": "assets/.ci/test/visual-regression/package.json",
+                        "[project-root]/.ci/test/visual-regression/README.md": "assets/.ci/test/visual-regression/README.md",
+                        "[project-root]/.github/pull_request_template.md": {
+                            "path": "assets/.github/pull_request_template.md",
+                            "overwrite": false
+                        },
+                        "[project-root]/.github/ISSUE_TEMPLATE/bug_report.md": {
+                            "path": "assets/.github/ISSUE_TEMPLATE/bug_report.md",
+                            "overwrite": false
+                        },
+                        "[project-root]/.github/ISSUE_TEMPLATE/feature_request.md": {
+                            "path": "assets/.github/ISSUE_TEMPLATE/feature_request.md",
+                            "overwrite": false
+                        },
+                        "[project-root]/config-local/config_suite.settings.yml": "assets/config-local/config_suite.settings.yml",
+                        "[project-root]/env.dist": {
+                            "path": "assets/env.dist",
+                            "overwrite": false
+                        },
+                        "[project-root]/README.md": {
+                            "path": "assets/README.md",
+                            "overwrite": false
+                        },
+                        "[project-root]/RoboFile.php": {
+                            "path": "assets/RoboFile.php",
+                            "overwrite": false
+                        },
+                        "[web-root]/sites/default/settings.php": {
+                            "path": "assets/sites/default/settings.php",
+                            "overwrite": false
+                        },
+                        "[web-root]/sites/default/settings.ts.php": "assets/sites/default/settings.ts.php"
+                    }
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Add this project to any Drupal distrobution based on drupal/core-composer-scaffold to get some TS resusable code.",
+            "support": {
+                "source": "https://github.com/thinkshout/drupal-integrations/tree/main",
+                "issues": "https://github.com/thinkshout/drupal-integrations/issues"
+            },
+            "time": "2021-10-19T00:58:08+00:00"
         },
         {
             "name": "twig/twig",
@@ -10184,7 +10253,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "thinkshout/drupal-integrations": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

@@ -11,12 +11,18 @@
         {
             "type": "path",
             "url": "upstream-configuration"
+        },
+        {
+            "type": "vcs",
+            "name": "thinkshout/drupal-integrations",
+            "url": "git@github.com:thinkshout/drupal-integrations.git"
         }
     ],
     "require": {
         "drush-ops/behat-drush-endpoint": "^9.4",
         "drush/drush": "^10",
-        "pantheon-upstreams/upstream-configuration": "*"
+        "pantheon-upstreams/upstream-configuration": "*",
+        "thinkshout/drupal-integrations": "dev-main"
     },
     "conflict": {
         "drupal\/drupal": "*"
