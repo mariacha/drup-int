@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ea579aec4004652f676ec693a79bde3",
+    "content-hash": "984f8b19d6bf2f4e1f8efd87d40456db",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6268,12 +6268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinkshout/drupal-integrations.git",
-                "reference": "942f58138d98bdac35a2e22f9758067a95e80652"
+                "reference": "3bc95d4015f8bdd493b7f30c2ddd722728b486db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thinkshout/drupal-integrations/zipball/942f58138d98bdac35a2e22f9758067a95e80652",
-                "reference": "942f58138d98bdac35a2e22f9758067a95e80652",
+                "url": "https://api.github.com/repos/thinkshout/drupal-integrations/zipball/3bc95d4015f8bdd493b7f30c2ddd722728b486db",
+                "reference": "3bc95d4015f8bdd493b7f30c2ddd722728b486db",
                 "shasum": ""
             },
             "conflict": {
@@ -6302,7 +6302,7 @@
                         },
                         "[project-root]/config-local/config_suite.settings.yml": "assets/config-local/config_suite.settings.yml",
                         "[project-root]/env.dist": {
-                            "path": "assets/env.dist",
+                            "path": "assets/.env.dist",
                             "overwrite": false
                         },
                         "[project-root]/README.md": {
@@ -6314,10 +6314,10 @@
                             "overwrite": false
                         },
                         "[web-root]/sites/default/settings.php": {
-                            "path": "assets/sites/default/settings.php",
+                            "path": "assets/web/sites/default/settings.php",
                             "overwrite": false
                         },
-                        "[web-root]/sites/default/settings.ts.php": "assets/sites/default/settings.ts.php"
+                        "[web-root]/sites/default/settings.ts.php": "assets/web/sites/default/settings.ts.php"
                     }
                 }
             },
@@ -6329,7 +6329,7 @@
                 "source": "https://github.com/thinkshout/drupal-integrations/tree/main",
                 "issues": "https://github.com/thinkshout/drupal-integrations/issues"
             },
-            "time": "2021-10-19T00:58:08+00:00"
+            "time": "2021-12-07T16:42:06+00:00"
         },
         {
             "name": "twig/twig",
